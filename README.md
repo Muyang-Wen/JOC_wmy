@@ -45,7 +45,8 @@ The parameter settings used in the computational experiments are summarized belo
 | Master problem | Machine symmetry breaking | Representative jobs $r_u$ ($u \in V$) |
 | Cutting | Cut family | Subset-row cuts (SRCs) |
 | Cutting | Base-set cardinality $|C|$ | $3$ |
-| Cutting | Multiplier $ho$ | $1/2$ |
+| Cutting | Multiplier $
+ho$ | $1/2$ |
 | Cutting | Conflict inequalities | Conflict-clique inequalities (separated on $G$) |
 | Pricing | Diagram topology | Shared backward zero-suppressed decision diagram |
 | Pricing | Variable ordering | Reverse Smith's ratio ($w_j/p_j$ non-decreasing) |
@@ -491,19 +492,6 @@ The computational experiments reported in the manuscript were conducted under th
 - **LP / MILP Solver**: Gurobi Optimizer 11.0;
 - **Stopping Criteria**: 600.0 seconds per instance (unsolved instances count as 600.0 s in averages).
 
----
-
-## Citation
-
-If these benchmark data, formulations, or computational results are used in academic research, please cite the manuscript:
-
-```bibtex
-@article{wen2026representative,
-  title     = {A Representative-Based Branch-Price-and-Cut Algorithm Using Backward Zero-Suppressed Decision Diagrams for Parallel Machine Scheduling with Conflicts},
-  author    = {Wen, Muyang},
-  journal   = {INFORMS Journal on Computing},
-  year      = {2026},
-  note      = {Under review}
 }
 ```
 
